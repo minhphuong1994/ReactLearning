@@ -1,0 +1,24 @@
+The crash course given below knowledge:
+* React component
+* Nesting component
+* Setup React Router/Routes 
+* Setup Common Layout for Routes
+* usage of Props (properties that can be passed in/used within a component)
+* useSate (when a state changed, the component is refreshed)
+* common syntax in React/Javascripts
+* export/import components
+* import json file content
+* 
+
+
+#Follow steps in the "Install Tailwind CSS with Vite - Tailwind CSS".html file (same location of this note) for setting up React project using Vite and Tailwind CSS
+
+npm install react-icons (to use fontAwsome - Fa)
+npm install react-router-dom (to use React routes for multiple pages instead of 1 page)
+npm install -D json-server (mockup backend server so that frontend can build API request and return without a backend server)
+
+
+- The app start from index.html file which call the React javascript file using script tag > the JS then will render the React components and assign to the "root" id element defined in the html file.
+ 
+- StrictMode tag is a wrapper component to check if there is potential problems in your app (deprecated, unsafe life cycle methods, legacy context API usage, etc.)
+- NavLink is same as Link element but support more features such as "isActive" property to check if current uri is the loaded one or not.
