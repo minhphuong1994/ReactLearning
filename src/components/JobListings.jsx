@@ -2,6 +2,7 @@
 import {useState, useEffect} from "react"
 import JobListing from './JobListing'
 import Spinner from "./Spinner"
+import { Link } from "react-router-dom"
 
 
 const JobListings = ({isHome = false}) =>{
@@ -39,6 +40,12 @@ const JobListings = ({isHome = false}) =>{
                         <div key={index} className='pb-5'>
                             <div>Title: {job.title}</div>
                             <JobListing description={job.description}/>
+                            <Link
+                                to={`/jobs/${job.id}`}
+                                className='h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm'
+                            >
+                                More details
+                            </Link>
                         </div>
                     ))
                 }</>
