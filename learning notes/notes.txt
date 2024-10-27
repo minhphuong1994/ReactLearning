@@ -8,7 +8,8 @@ The crash course given below knowledge:
 * usage of Props (properties that can be passed in/used within a component)
 * useState (including state name, set state method and default value of the state. When a state changed, the component is refreshed)
 * common syntax in React/Javascripts
-* useEffect (code under useEffect will be run on every single change of the browser. It can be limited to only run the code when some variables are updated be listing the names in the dependency array)
+* useEffect (code under useEffect will be run on every single change of the browser. It can be limited to only run the code when some variables are updated by listing the names in the dependency array)
+* setup proxy, setup mock json-server as backend and perform fetching data from frontend
 
 
 #Follow steps in the "Install Tailwind CSS with Vite - Tailwind CSS".html file (same location of this note) for setting up React project using Vite and Tailwind CSS
