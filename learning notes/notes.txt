@@ -1,14 +1,14 @@
 The crash course given below knowledge:
 * React component
+* export/import components
+* import json file content
 * Nesting component
 * Setup React Router/Routes 
 * Setup Common Layout for Routes
 * usage of Props (properties that can be passed in/used within a component)
-* useSate (when a state changed, the component is refreshed)
+* useState (including state name, set state method and default value of the state. When a state changed, the component is refreshed)
 * common syntax in React/Javascripts
-* export/import components
-* import json file content
-* 
+* useEffect (code under useEffect will be run on every single change of the browser. It can be limited to only run the code when some variables are updated be listing the names in the dependency array)
 
 
 #Follow steps in the "Install Tailwind CSS with Vite - Tailwind CSS".html file (same location of this note) for setting up React project using Vite and Tailwind CSS
@@ -16,6 +16,7 @@ The crash course given below knowledge:
 npm install react-icons (to use fontAwsome - Fa)
 npm install react-router-dom (to use React routes for multiple pages instead of 1 page)
 npm install -D json-server (mockup backend server so that frontend can build API request and return without a backend server)
+npm install react-spinners (spinning icons)	 
 
 
 - The app start from index.html file which call the React javascript file using script tag > the JS then will render the React components and assign to the "root" id element defined in the html file.

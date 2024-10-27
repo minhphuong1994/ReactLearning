@@ -5,7 +5,7 @@ import JobListings from "../components/JobListings"
 
 const HomePage = ()=>{
     const abc= 'TEST'
-    const names = ['Tim','Nue','Joe']
+    const names = ['Tim','Joe']
     const loggedIn = false
     const loggedOut = !loggedIn
     const reuseStyles = {
@@ -21,7 +21,7 @@ const HomePage = ()=>{
             <ul>
             {names.map((name,index)=>(
                 <SimpleWrapper key={index}>
-                <li>BBB</li>
+                <li>{name}</li>
                 </SimpleWrapper>
             ))}
             </ul>
