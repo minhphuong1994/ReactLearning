@@ -8,6 +8,8 @@ const addJob = async (newJob) =>{
         },
         body: JSON.stringify(newJob)
     })
+
+    console.log("Added job: "+res.ok)
     return
 }
 
