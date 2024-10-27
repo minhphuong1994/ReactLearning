@@ -6,6 +6,7 @@ const MainLayout =() =>{
     return (
         <>
             <Navbar/>
+            {/* Outlet is where the children inserted into this wrapper */}
             <Outlet/>
         </>
     )
