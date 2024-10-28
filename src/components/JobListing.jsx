@@ -16,7 +16,7 @@ const JobListing =({description}) =>{
             <FaArrowRight className="inline ml-1"/>
             <button onClick={()=>setShowFullDescription((prevState)=> !prevState)}
                 className="text-indigo-500 mb-2"
-            >{showFullDescription ? 'More' : 'Less'}</button>
+            >{!showFullDescription ? 'More' : 'Less'}</button>
         </>
     )
     

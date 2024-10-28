@@ -2,7 +2,7 @@ The crash course given below knowledge:
 * React component
 * export/import components
 * import json file content
-* Nesting component
+* Nesting components
 * Setup React Router/Routes 
 * Setup Common Layout for Routes
 * usage of Props (properties that can be passed in/used within a component)
@@ -10,6 +10,9 @@ The crash course given below knowledge:
 * common syntax in React/Javascripts
 * useEffect (code under useEffect will be run on every single change of the browser. It can be limited to only run the code when some variables are updated by listing the names in the dependency array)
 * setup proxy, setup mock json-server as backend and perform fetching data from frontend (mock API routes will be based on the highest object's key name of the json file)
+* useParams (get path params from the frontend api route)
+* use 'useLoaderData' for decoupling requests to backend APIs
+* implement CRUD services from frontend and use react-toastify to show result notifications
 
 
 #Follow steps in the "Install Tailwind CSS with Vite - Tailwind CSS".html file (same location of this note) for setting up React project using Vite and Tailwind CSS

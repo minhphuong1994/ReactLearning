@@ -1,5 +1,5 @@
 
-import { useParams, useLoaderData, useNavigate } from 'react-router-dom'
+import { useParams, useLoaderData, useNavigate, Link } from 'react-router-dom'
 // import {useState, useEffect} from 'react'
 // import Spinner from '../components/Spinner'
 import JobListing from '../components/JobListing'
@@ -45,9 +45,15 @@ const JobPage = ()=>{
         navigate("/jobs")
     }
 
+
     return (
     <>
         <JobListing description={job.description}/>
+        <div></div>
+        <Link to={`/edit-job/${id}`}>
+            Edit
+        </Link>
+
         <button onClick={()=>onClickDelete(job.id)}
                 className="text-indigo-500 mb-2"
         >Delete</button>
