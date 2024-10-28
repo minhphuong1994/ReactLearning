@@ -1,9 +1,11 @@
 # Welcome to my Git repo of ReactJs learning (React + Vite + TailWind CSS + JsonServer+...)
 
-**Disclaimer:** this is a mini project that help me to learn ReactJs, it does not suppose to be a proper application with good UI and stuff. Its main purpose is for exploring how to work with ReactJs as much as I can.
-Original tutorial is from [TraversyMedia](https://www.youtube.com/watch?v=LDB4uaJ87e0&ab_channel=TraversyMedia) YouTube channel
+**Disclaimer:** this is a mini project that help me to learn ReactJs, it does not suppose to be a proper application with good UI and stuff. Its main purpose is for exploring how to work with ReactJs as much as I can.  
+Original tutorial is from [TraversyMedia](https://www.youtube.com/watch?v=LDB4uaJ87e0&ab_channel=TraversyMedia) YouTube channel  
 
-
+![homepage](./public/homepage.png)  
+![jobspage](./public/jobspage.png)  
+![jobpage](./public/jobpage.png)  
 ## The crash course given below knowledge:
 * React component
 * export/import components
@@ -23,7 +25,6 @@ Original tutorial is from [TraversyMedia](https://www.youtube.com/watch?v=LDB4ua
 
 ## Setup and install dependencies
 - Follow steps in the "Install Tailwind CSS with Vite - Tailwind CSS".html file (same location of this note) for setting up React project using Vite and Tailwind CSS
-
  - npm install react-icons (to use fontAwesome - Fa)
 - npm install react-router-dom (to use React routes for multiple pages instead of 1 page)
 - npm install -D json-server (mockup backend server so that frontend can build API request and return without a backend server)
@@ -32,28 +33,26 @@ Original tutorial is from [TraversyMedia](https://www.youtube.com/watch?v=LDB4ua
 
 
 ## Essential Commands:
-* To run application in dev mode
-    > npm run dev
+### To run application in dev mode
+```npm run dev```
 
-* To run json-server as a mock backend server
-    > npm run server
+### To run json-server as a mock backend server
+```npm run server```
 
-To build production code for this app (a dist folder will be created once done)
-npm run build
+### To build production code for this app (a dist folder will be created once done)
+```npm run build```
 
-To run production version of this app
-npm run preview
+### To run production version of this app
+```npm run preview```
 
-
-
-Additional learning notes: 
+## Additional learning notes: 
 - The app start from index.html file which call the React JavaScript file using script tag > the JS then will render the React components and assign to the "root" id element defined in the html file.
  
 - StrictMode tag is a wrapper component to check if there is potential problems in your app (deprecated, unsafe life cycle methods, legacy context API usage, etc.)
 - NavLink is same as Link element but support more features such as "isActive" property to check if current uri is the loaded one or not.
 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
