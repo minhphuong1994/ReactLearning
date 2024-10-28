@@ -17,7 +17,8 @@ The crash course given below knowledge:
 npm install react-icons (to use fontAwsome - Fa)
 npm install react-router-dom (to use React routes for multiple pages instead of 1 page)
 npm install -D json-server (mockup backend server so that frontend can build API request and return without a backend server)
-npm install react-spinners (spinning icons)	 
+npm install react-spinners (spinning icons)
+npm install react-toastify (show floating notification)	 
 
 
 - The app start from index.html file which call the React javascript file using script tag > the JS then will render the React components and assign to the "root" id element defined in the html file.

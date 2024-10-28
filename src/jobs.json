@@ -1,20 +1,6 @@
 {
   "jobs": [
     {
-      "id": "0",
-      "title": "Senior React Developer",
-      "type": "Full-Time",
-      "description": "We arr.",
-      "location": "Boston, MA",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "NewTek Solutions",
-        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
-        "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
       "id": "1",
       "title": "Senior React Developer",
       "type": "Full-Time",
@@ -96,90 +82,6 @@
         "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
-      }
-    },
-    {
-      "id": "7bdf",
-      "title": "werdsf",
-      "type": "Full-Time",
-      "location": "sdwer",
-      "description": "dsf",
-      "salary": "$175K - 200K",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "dsfwe@ew.com",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "51e2",
-      "title": "123",
-      "type": "Remote",
-      "location": "ddd",
-      "description": "reww",
-      "salary": "Under $50K",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "sdfw@aa.com",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "ad91",
-      "title": "123",
-      "type": "Full-Time",
-      "location": "rrr",
-      "description": "32",
-      "salary": "$70K - 80K",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "wer@wer.com",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "8eb1",
-      "title": "123",
-      "type": "Part-Time",
-      "location": "eee",
-      "description": "321",
-      "salary": "Under $50K",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "fde@we.com",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "7a53",
-      "title": "sdfwe",
-      "type": "Full-Time",
-      "location": "rwer",
-      "description": "rew",
-      "salary": "Under $50K",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "ewrew@rwec.com",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "ea1e",
-      "title": "df",
-      "type": "Part-Time",
-      "location": "we",
-      "description": "er",
-      "salary": "Under $50K",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "dfse@ww.com",
-        "contactPhone": ""
       }
     }
   ]
